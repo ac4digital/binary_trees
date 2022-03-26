@@ -24,7 +24,7 @@ bst_t *bst_insert(bst_t **tree, int value)
 		}
 
 		tmp = *tree;
-		
+
 		while (tmp)
 		{
 			if (tmp->n == value)
